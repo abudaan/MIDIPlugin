@@ -1,0 +1,37 @@
+MIDIPlugin file
+
+Windows: use the file npMIDIPlugin.dll
+OSX: use the file MIDIPlugin.plugin
+
+
+Installation of the plugin
+
+1) First close the browser
+
+2) Copy the plugin to the plugins folder
+
+3) Restart browser
+
+4) Navigate to 'about:plugins' to check the installation
+
+5) Open index.html to test the plugin
+
+
+
+Plugins folder locations:
+
+Chrome on Windows: C:\Users\{username}\AppData\Local\Google\Chrome\Application\Plugins
+create the folder 'Plugins' if it does not exist.
+
+Firefox on Windows 32bits:  C:\Program Files\Mozilla Firefox\plugins 
+
+Firefox on Windows 64bits: C:\Program Files (x86)\Mozilla Firefox\plugins
+
+Safari, Chrome and Firefox on OSX: /Library/Internet Plug-Ins/
+
+
+For questions, feedback and requests please don't hesitate to send an email to daniel@abumarkub.net
+
+
+For more information visit my blog: http://abumarkub.net
+

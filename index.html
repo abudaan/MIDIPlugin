@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            
+            <!-- dropdown menus for that will be populated with the MIDI in- and outputs //-->
+            <select id="midi-in">
+                <option id="input--1">choose a midi input</option>
+            </select>
+            <select id="midi-out">
+                <option id="output--1">choose a midi ouput</option>
+            </select>
+            
+            <!-- click this button to connect the MIDI devices that are chosen in the dropdown menus //-->
+            <input id="connect" value="connect" type="button"/>
+            
+            <!-- div that shows which MIDI devices are currently connected //-->
+            <div id="connection">no connection</div>
+            
+            <!-- div that shows incoming MIDI messages //-->
+            <div id="data"></div>
+
+            <!-- click this button to clear the MIDI messages log //-->
+            <input id="clear-log" value="clear log" type="button"/>
+
+        </div>
+        
+        <!-- the MIDI plugin embed code, since the MIDI plugin has no GUI you can set its dimensions to a minimum //-->
+        <embed id="MIDIPlugin" type="application/midi-plugin" width="1" height="1" />
+    
+    </body>
+</html>

@@ -1,0 +1,44 @@
+html{
+    font-family: Verdana,Helvetica,_sans;
+    font-size: 12px;
+    background-color: #eee;
+}
+#container{
+    padding:5px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+#connection{
+    padding: 5px;
+    background-color: #555;
+    color: #fff;
+    font-family: monospace;
+    padding: 5px;
+    margin:8px 0px;
+    height:20px;
+    font-size: 14px;
+    font-weight:bold;
+}
+#data{
+    overflow: auto;
+    height: 300px;
+    padding: 5px;
+    background-color: #555;
+    color: #0f0;
+    font-family: monospace;
+    margin-bottom:4px;
+    font-size: 14px;
+}
+#data strong{
+    color: #fff000;
+    font-weight:bold;
+}
+.notenumber{
+    float:left;
+    width: 120px;
+}
+.velocity{
+    float:left;
+    width: 120px;
+}
