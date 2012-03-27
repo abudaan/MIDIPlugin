@@ -35,7 +35,6 @@ Safari, Chrome and Firefox on OSX: /Library/Internet Plug-Ins/
 
 == API ==
 
-
 getMIDIInputs() -> retrieves MIDI inputs as a single string, devices are separated by a comma
 
 getMIDIOutputs() -> retrieves MIDI outputs as a single string, devices are separated by a comma
@@ -46,6 +45,7 @@ cleanup() -> clears all current connections
 
 
 
+== Contact ==
 
 For questions, feedback and requests please don't hesitate to send an email to daniel@abumarkub.net
 
